@@ -13,14 +13,17 @@
 
 <div class="row no-gutters">
 	<?php foreach ($vdos as $key => $item): ?>
-		<div class="col-md-3 col-6">
-			<div class="embed-responsive embed-responsive-21by9">
-                <video class="img-responsive" controls>
-                    <source src="<?=SITE_URL.$item->path?>" type="video/mp4">
-                    
-                    Your browser does not support the video tag.
-                </video>
+		<div class="col-md-4 col-12 px-2 mb-4 text-center">
+			<div class="embed-responsive embed-responsive-21by9" style="height: 200px; cursor: pointer;">
+                <a href="<?=SITE_URL.$item->path?>" target="_blank">
+                    <video class="img-responsive cls_vdo" id="is_vdo_<?= $key ?>" preload="metadata">
+                        <source src="<?=SITE_URL.$item->path?>.#t=0.1" type="video/mp4">
+                        
+                        Your browser does not support the video tag.
+                    </video>
+                </a>
         	</div>
+            <small><?= $item->name ?></small>
 		</div>
 
 	<?php endforeach; ?>

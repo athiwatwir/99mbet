@@ -91,6 +91,18 @@ class AdminVdoController extends AppController
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $adminVdo = $this->Vdos->patchEntity($adminVdo, $this->request->getData());
+
+            $this->loadComponent('UploadVideo');
+            $file = $this->request->data['upload_file'];
+            if (!is_null($file['tmp_name']) && $file['tmp_name'] != '') {
+                
+                unlink($adminVdo['fullpath']);
+
+                $pathArr = $this->UploadVideo->upload($file);
+                $adminVdo->path = $pathArr['path'];
+                $adminVdo->fullpath = $pathArr['fullpath'];
+            }
+
             if ($this->Vdos->save($adminVdo)) {
                 $this->Flash->success(__('Theadmin vdo has been saved.'));
 

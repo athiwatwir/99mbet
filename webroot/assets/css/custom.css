@@ -114,3 +114,11 @@ body, html {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
+
+.video-controls {
+    position: absolute;
+    z-index: 99;
+    background-color: #dd0000;
+    left: 45%;
+    top: 45%;
+}
