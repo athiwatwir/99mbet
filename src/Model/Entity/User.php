@@ -1,37 +1,18 @@
 <?php
 namespace App\Model\Entity;
 
-use Cake\ORM\Entity;
 use Cake\Auth\DefaultPasswordHasher;
-
-/**
+use Cake\ORM\Entity;/**
  * User Entity
  *
  * @property string $id
- * @property string $usercode
- * @property string $title
- * @property string $firstname
- * @property string $lastname
  * @property string $username
  * @property string $password
- * @property string $email
- * @property string $phone
- * @property string $lineid
- * @property string $fax
- * @property string $isactive
- * @property string $isverify
- * @property string $islocked
- * @property string $iscustomer
- * @property string $isseller
- * @property string $gender
  * @property \Cake\I18n\FrozenTime $created
- * @property \Cake\I18n\FrozenTime $updated
- * @property string $verifycode
- * @property string $position
+ * @property \Cake\I18n\FrozenTime $modified
  */
 class User extends Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
@@ -42,28 +23,11 @@ class User extends Entity
      * @var array
      */
     protected $_accessible = [
-        'usercode' => true,
-        'title' => true,
-        'firstname' => true,
-        'lastname' => true,
         'username' => true,
         'password' => true,
-        'email' => true,
-        'phone' => true,
-        'lineid' => true,
-        'fax' => true,
-        'isactive' => true,
-        'isverify' => true,
-        'islocked' => true,
-        'iscustomer' => true,
-        'isseller' => true,
-        'gender' => true,
         'created' => true,
-        'updated' => true,
-        'verifycode' => true,
-        'position' => true
+        'modified' => true
     ];
-
     /**
      * Fields that are excluded from JSON versions of the entity.
      *
@@ -72,7 +36,11 @@ class User extends Entity
     protected $_hidden = [
         'password'
     ];
+
     protected function _setPassword($password) {
         return (new DefaultPasswordHasher)->hash($password);
     }
+
 }
+
+    

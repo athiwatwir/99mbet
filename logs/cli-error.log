@@ -1,0 +1,87 @@
+2021-05-02 14:16:53 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in /Applications/MAMP/htdocs/Git/99mbet/src/Model/Table/UsersTable.php on line 18
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Git/99mbet/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Us...', 'App')
+#5 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Users', 'Model/Table', 'Table')
+#6 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Users', Array)
+#7 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(132): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#8 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(195): Cake\ORM\TableRegistry::get('Users', Array)
+#9 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(112): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#10 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Users')
+#11 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('users')
+#12 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#14 /Applications/MAMP/htdocs/Git/99mbet/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2021-05-02 14:17:09 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in /Applications/MAMP/htdocs/Git/99mbet/src/Model/Table/UsersTable.php on line 18
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Git/99mbet/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Us...', 'App')
+#5 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Users', 'Model/Table', 'Table')
+#6 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Users', Array)
+#7 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(132): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#8 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(195): Cake\ORM\TableRegistry::get('Users', Array)
+#9 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(112): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#10 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Users')
+#11 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('users')
+#12 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#14 /Applications/MAMP/htdocs/Git/99mbet/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2021-05-02 14:17:17 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in /Applications/MAMP/htdocs/Git/99mbet/src/Model/Table/UsersTable.php on line 18
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Git/99mbet/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Us...', 'App')
+#5 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Users', 'Model/Table', 'Table')
+#6 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Users', Array)
+#7 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(132): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#8 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(195): Cake\ORM\TableRegistry::get('Users', Array)
+#9 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(112): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#10 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Users')
+#11 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('users')
+#12 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#14 /Applications/MAMP/htdocs/Git/99mbet/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2021-05-02 14:31:30 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in /Applications/MAMP/htdocs/Git/99mbet/src/Controller/AdminVdoController.php on line 10
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Git/99mbet/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/TestTask.php(228): class_exists('App\\Controller\\...')
+#4 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(214): Bake\Shell\Task\TestTask->bake('Controller', 'AdminVdo')
+#5 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(163): Bake\Shell\Task\ControllerTask->bakeTest('AdminVdo')
+#6 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('AdminVdo')
+#7 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ControllerTask->main('admin_vdo')
+#8 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#10 /Applications/MAMP/htdocs/Git/99mbet/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2021-05-02 14:34:14 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in /Applications/MAMP/htdocs/Git/99mbet/src/Model/Table/VdosTable.php on line 18
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->bakeTable(Object(Cake\ORM\Table), Array)
+#1 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Vdos')
+#2 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('vdos')
+#3 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#4 /Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#5 /Applications/MAMP/htdocs/Git/99mbet/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#6 {main}
+
+

@@ -20,3 +20,993 @@ Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
 
 
 
+2021-05-02 14:03:57 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:57 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:57 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:57 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:58 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:58 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 198]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:58 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 890
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 961
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:03:58 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::_getInput() - CORE/src/Console/ConsoleIo.php, line 360
+Cake\Console\ConsoleIo::askChoice() - CORE/src/Console/ConsoleIo.php, line 335
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 891
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 961
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:04:00 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 961
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:04:00 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\ModelTask::bakeEntity() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 911
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:04:00 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\FixtureTask::generateFixtureFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 254
+Bake\Shell\Task\FixtureTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 197
+Bake\Shell\Task\ModelTask::bakeFixture() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1138
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 116
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:04:00 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\TestTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 280
+Bake\Shell\Task\ModelTask::bakeTest() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1156
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 117
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleErrorHandler::_displayException() - CORE/src/Console/ConsoleErrorHandler.php, line 99
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 68
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:16:53 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::error() - CORE/src/Log/Log.php, line 453
+Cake\Error\BaseErrorHandler::_logException() - CORE/src/Error/BaseErrorHandler.php, line 319
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 69
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleErrorHandler::_displayException() - CORE/src/Console/ConsoleErrorHandler.php, line 99
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 68
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:17:09 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::error() - CORE/src/Log/Log.php, line 453
+Cake\Error\BaseErrorHandler::_logException() - CORE/src/Error/BaseErrorHandler.php, line 319
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 69
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleErrorHandler::_displayException() - CORE/src/Console/ConsoleErrorHandler.php, line 99
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 68
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:17:17 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::error() - CORE/src/Log/Log.php, line 453
+Cake\Error\BaseErrorHandler::_logException() - CORE/src/Error/BaseErrorHandler.php, line 319
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 69
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Notice (8): compact(): Undefined variable: admin in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ControllerTask::bakeController() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 190
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 162
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 198]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ControllerTask::bakeController() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 190
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 162
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\ControllerTask::bakeController() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 194
+Bake\Shell\Task\ControllerTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 162
+Bake\Shell\Task\ControllerTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleErrorHandler::_displayException() - CORE/src/Console/ConsoleErrorHandler.php, line 99
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 68
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:31:30 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::error() - CORE/src/Log/Log.php, line 453
+Cake\Error\BaseErrorHandler::_logException() - CORE/src/Error/BaseErrorHandler.php, line 319
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 69
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:34:13 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE/src/Console/CommandScanner.php, line 81
+Cake\Console\CommandScanner::scanAll() - CORE/src/Console/CommandScanner.php, line 45
+Cake\Console\CommandCollection::autoDiscover() - CORE/src/Console/CommandCollection.php, line 174
+Cake\Http\BaseApplication::console() - CORE/src/Http/BaseApplication.php, line 91
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 120
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:13 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:13 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1006]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:13 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOptionParser.php, line 1007]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE/src/Console/Shell.php, line 570
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 288
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 458
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:14 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:14 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [/Applications/MAMP/htdocs/Git/99mbet/vendor/twig/twig/lib/Twig/Node.php, line 198]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/Parser.php, line 411
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/twig/twig/lib/Twig/TokenParser/Include.php, line 22
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - ROOT/vendor/wyrihaximus/twig-view/src/Lib/Twig/TokenParser/Cell.php, line 20
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT/vendor/wyrihaximus/twig-view/src/Event/TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 111
+Cake\View\View::__construct() - CORE/src/View/View.php, line 370
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 86
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:14 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 917
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 961
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-05-02 14:34:14 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Console\ConsoleErrorHandler::_displayException() - CORE/src/Console/ConsoleErrorHandler.php, line 99
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 68
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+
+2021-05-02 14:34:14 Notice: Deprecated (8192): implode(): Passing glue string after array is deprecated. Swap the parameters in [/Applications/MAMP/htdocs/Git/99mbet/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 242]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::_replaceTags() - CORE/src/Console/ConsoleOutput.php, line 242
+preg_replace_callback - [internal], line ??
+Cake\Console\ConsoleOutput::styleText() - CORE/src/Console/ConsoleOutput.php, line 209
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::error() - CORE/src/Log/Log.php, line 453
+Cake\Error\BaseErrorHandler::_logException() - CORE/src/Error/BaseErrorHandler.php, line 319
+Cake\Console\ConsoleErrorHandler::handleException() - CORE/src/Console/ConsoleErrorHandler.php, line 69
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 171
+[main] - [internal], line ??
+
+
+

@@ -42,7 +42,7 @@ define('YES', '<span class="badge badge-success">ใช่</span>');
 define('NO', '<span class="badge badge-warning">ไม่</span>');
 
 
-define('SITE_URL','https://www.99mbet.com/');
+define('SITE_URL','http://localhost:8888/Git/99mbet/');
 
 
 define('DATE_TIME_FORMATE', 'dd/MM/yyyy HH:mm');
