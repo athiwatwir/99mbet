@@ -17,7 +17,7 @@
 			<div class="embed-responsive embed-responsive-21by9" style="height: 200px; cursor: pointer;">
                 <a href="<?=SITE_URL.$item->path?>" target="_blank">
                     <video class="img-responsive cls_vdo" id="is_vdo_<?= $key ?>" preload="metadata">
-                        <source src="<?=SITE_URL.$item->path?>.#t=0.1" type="video/mp4">
+                        <source src="<?=SITE_URL.$item->path?>#t=0.1" type="video/mp4">
                         
                         Your browser does not support the video tag.
                     </video>
